@@ -27,3 +27,5 @@ for filename in file_list:
         line_count += 1
         if line.find(wordexpression) != -1:
             print(f'File: {os.path.basename(filename)}, Line: {line_count}, ({wordexpression})')
+
+my_word = ['my_word', 'my_word', 'my_word', 'my_word', 'my_word', 'my_word', 'my_word', 'my_word', 'my_word', 'my_word', 'my_word']

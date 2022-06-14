@@ -10,7 +10,7 @@ import os
 
 dir_contents = []
 
-path = 'Quizes/'
+path = '/'
 match = '*'
 
 for path_item in glob.glob('/'.join([path, match])):
