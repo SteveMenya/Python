@@ -75,3 +75,24 @@ week = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 for day in week:
     if day != 'Sun' and day != 'Sat':
         print('Weekday: ' + day)
+
+# Using string.format
+
+s = 'It has been raining for {0:.2f} {1} and {0:.4f} {2}'
+new_string = s.format(40.001, 'days', 'nights')
+print(new_string)
+
+# format() with Keywords string
+
+s = '{0} is over {age: 0.2f} {time} old.'.format('Python', time='years', age=25)
+print(s)
+
+# f-strings (Formatting Strings)
+name, age, time = 'JJ', 42, 'years'
+
+s = f'{name} was {age - 15:.1f} {time} a decade ago'
+print(s)
+
+# removing suffix
+suffix_string = 'The quick brown fox'
+print(suffix_string.removesuffix('fox'))
