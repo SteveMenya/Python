@@ -64,3 +64,10 @@ fabric.properties
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+
+
+_migrations/*
+!_migrations/__init__.py
+
+# environment variables
+.env
