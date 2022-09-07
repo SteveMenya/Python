@@ -12,12 +12,12 @@ my_data = [
     'https://docs.python.org/3/',
     'https://www.google.com?qws_rd=ssl#q=python',
     'http://localhost:8005/contact/501',
-    'https://jjmenya.testing.com/3/'
+    'https://jjmenya.testing.com/3/',
+    'http://www.dctc.edu/'
 ]
 
 
 def get_domain_name(data):
-    suffixes = [':', '/', '?']
     # loop through the urls coming in
     for url in data:
 
